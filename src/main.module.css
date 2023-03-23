@@ -1,0 +1,11 @@
+h1.sale {
+    border: 2px solid purple;
+    outline: 2px solid orange;
+}
+
+.saleHeader {
+    transition: all .5s ease;
+    border: none;
+    outline: none;   
+    text-align: center;
+}
