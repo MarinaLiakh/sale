@@ -10,7 +10,8 @@ export const Main = () => {
     };
 
     const onStopSale = () => {
-        setIsSaleOn(false); //это ожидает useEffect
+        setIsSaleOn(false); 
+        //это ожидает useEffect
     };
 
     const saleClassName = isBorderOn ? `${styles.saleHeader} ${styles.sale}` : styles.saleHeader;
